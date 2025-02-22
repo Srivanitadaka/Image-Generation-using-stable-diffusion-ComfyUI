@@ -1,0 +1,35 @@
+Model Setup
+1. Download and Extract ComfyUI
+To get started, follow these steps:
+
+->Download ComfyUI from the official repository:
+👉 https://github.com/comfyanonymous/ComfyUI?tab=readme-ov-file
+->Extract the downloaded archive to your desired location.
+
+2. Download Stable Diffusion Models
+To use Stable Diffusion with ComfyUI, follow these steps:
+->Visit a trusted source(Huggingface) to download Stable Diffusion models.
+->Choose the model variant that suits your needs (e.g., SD 1.5, SDXL, etc.).
+👉 https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5
+👉 https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0
+->Download the checkpoint (.ckpt) or SafeTensor (.safetensors) model file.
+
+3. Load Stable Diffusion Models in ComfyUI
+Once you have downloaded the models, place them in the correct directory:
+->Navigate to the ComfyUI folder.
+->Locate the models folder inside ComfyUI.
+->Move the downloaded Stable Diffusion checkpoint file into the models/checkpoints directory.
+->Start ComfyUI, and it will automatically detect the model.
+
+4. Running ComfyUI
+After setting up the models, you can run ComfyUI using either your CPU or GPU:
+For CPU:
+Run the following script inside the ComfyUI folder:
+👉 run_cpu.bat
+
+For GPU (NVIDIA users):
+Run the following script:
+👉 run_nvidia_gpu.bat
+Once the program is running, you can access ComfyUI via your web browser:
+🔗 http://localhost:8188
+
